@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>VPT Documentation - Wybe Network</title>
@@ -9,22 +10,23 @@
   <link rel="stylesheet" href="assets/css/vue.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/edit-on-github.js"></script>
- <script src="assets/js/twemoji.min.js"></script>
+  <script src="assets/js/twemoji.min.js"></script>
   <script>
     window.$docsify = {
       name: 'documentation',
       repo: 'https://github.com/wybenetwork/documentation',
       plugins: [
-      EditOnGithubPlugin.create('https://github.com/wybenetwork/documentation/tree/main/vistapanel-themes/', 
-     null, 
-      '📝 Edit Document'),
-      function (hook, vm) {
-          hook.doneEach(function() {
-              twemoji.parse(document);
+        EditOnGithubPlugin.create('https://github.com/wybenetwork/documentation/tree/main/vistapanel-themes/',
+          null,
+          '📝 Edit Document'),
+        function (hook, vm) {
+          hook.doneEach(function () {
+            twemoji.parse(document);
           });
         },
       ],
@@ -35,9 +37,15 @@
       themeColor: '#3F51B5',
       notFoundPage: true,
       externalLinkTarget: '_blank',
-      externalLinkRel: 'noopener',
+      externalLinkRel: 'noopener'
     }
   </script>
   <script src="assets/js/copy-code.min.js"></script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
 </body>
+
 </html>
