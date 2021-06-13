@@ -1,4 +1,4 @@
-# Theme Names
+# Themes Name
 
 This section includes the name of almost all the themes provided by us for VistaPanel.
 
