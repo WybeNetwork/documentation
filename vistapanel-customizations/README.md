@@ -1,21 +1,21 @@
 # Introduction
 
-Welcome to a Documentation to guide you through the steps of setting up any one of our [VistaPanel Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations) on your vPanel. Our Customizations include theme switcher, responsive domain search, cpanel logo to copyright and several more for vPanel.
+Welcome!
 
-## What vPanel Is?
+This documentation will guide you through the steps of setting up any one of our [Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations) on your vPanel. Our Customizations include a theme switcher, making domain search responsive, changing the footer's logo and several more.
 
-vPanel (VistaPanel) is a control panel designed by iFastNet for their free hosting servers. It allows the owner of free hosting to control and manage their website easily through vPanel.
+## What is vPanel?
 
-## Examples
+vPanel (VistaPanel) is a control panel designed by iFastNet for their free hosting servers (MyOwnFreeHost). It allows free hosting clients to control and manage their website easily.
 
-We will soon make a demo link for our vPanel customizations.
+<!--## Examples
+
+We will soon make a demo link for our vPanel customizations.-->
 
 ## Community
-User and development teams are usually in the [discord server](https://discord.gg/zArW8kC).
+The developers, as well as people using the Customisations can be found hanging out in the [iFastNet Community Discord](https://discord.gg/zArW8kC), which is operated by Wybe Network members. 
 
 ## Credits
-[MAHOfficial](https://github.com/mahofficial) for providing the text and link changer scripts.
+[MAHOfficial](https://github.com/mahofficial), [PlanetCloud](https://github.com/PlanetTheCloud) and [RanaKhas](https://github.com/ranakhas) for providing the scripts.
 
-[PlanetCloud](https://github.com/PlanetTheCloud) for cPanel logo to Copyright, responsive domain search and tutorial link changer .
-
-[RanaKhas](https://github.com/ranakhas) for Theme Switcher.
+[MAHOfficial](https://github.com/mahofficial) for writing the documentation, and [Anyx](https://github.com/4yx) for modifying it.

@@ -1,8 +1,8 @@
 # Manual Installation
 
-This method will guide you through the manual installation process of using our vistapanel scripts on your vPanel. 
+This method will guide you through the manual installation process of our Customizations on your vPanel. 
 
-!> You must read the [Requirements for Manual Installation](https://docs.wybenetwork.com/vistapanel-customizations/#/requirement?id=requirements-for-manual-installation) before continuing with this method.
+!> You must read the [Requirements for Manual Installation](https://docs.wybenetwork.com/vistapanel-customizations/#/requirements?id=requirements-for-manual-installation) before continuing with this method.
 
 We are using example of responsive domain search here. You can download all other scripts from GitHub. At the place of script-name there can be any [script name](https://docs.wybenetwork.com/vistapanel-customizations/#/scripts-name).
 
@@ -10,20 +10,18 @@ We are using example of responsive domain search here. You can download all othe
 
 ## Download Scripts
 
-1. Goto [VistaPanel Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations/releases). 
+1. Go to [the releases page of VistaPanel Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations/releases). 
 2. Download the latest available "Source Code (zip)" file.
 
 ![Download Script](assets/img/m1-01.png)
 
 ## Extract & Navigate
 
-1. After downloading the latest release, extract it.
-2. After Extracting, Open the extracted folder.
-3. Navigate to your desired script folder.
-4. After navigating to your desired script folder, you will find a file listing like the screenshot shown below.
-5. Be sure to read the readme.md file, it contain instructions to setup that specific script.
+1. After downloading the latest release, extract it. Open the extracted folder.
+2. Navigate to your desired script folder. There, you will find a file listing like the screenshot shown below.
+3. Be sure to read the README.md file, it contains instructions specifically for each script. Alternatively, you can go to our "Code" section below and select the script for which you need instructions.
 
-!> Each Script have different way to setup. You can always read the readme.md file of the script you want to use to get the correct guide.
+!> Each script is setup in a different way. You need to read the README.md file of the script you want to use to get the correct guide.
 
 ![Extract & Navigate](assets/img/m1-02.png)
 

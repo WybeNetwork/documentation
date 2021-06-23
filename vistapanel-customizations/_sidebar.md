@@ -1,13 +1,13 @@
 - Getting started
 
-  - [Requirement](requirement.md)
+  - [Requirements](requirements.md)
   - [License](license.md)
-  - [Scripts Name](scripts-name.md)
+  - [Scripts](scripts.md)
 
 - Installation
 
-  - [Method 1](method1.md)
-  - [Method 2](method2.md)
+  - [Manual Installation](manual.md)
+  - [Using our CDN](cdn.md)
 
 - Code
 
