@@ -14,7 +14,7 @@ We will soon make a demo link for our themes.
 User and development teams are usually in the [discord server](https://discord.gg/zArW8kC).
 
 ## Credits
-[MAHOfficial](https://github.com/mahofficial) for providing the cPanel and Gradient Blue themes
+[AADev](https://github.com/mahofficial) for providing the cPanel and Gradient Blue themes
 
 [Arcenas090](https://github.com/arcenas090) for Gradient Purple and Gradient Green Themes
 
