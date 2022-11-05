@@ -16,6 +16,6 @@ We will soon make a demo link for our vPanel customizations.-->
 The developers, as well as people using the Customisations can be found hanging out in the [iFastNet Community Discord](https://discord.gg/zArW8kC), which is operated by Wybe Network members. 
 
 ## Credits
-[AADev](https://github.com/mahofficial), [PlanetCloud](https://github.com/PlanetTheCloud) and [RanaKhas](https://github.com/ranakhas) for providing the scripts.
+[AA22Dev](https://github.com/mahofficial), [PlanetCloud](https://github.com/PlanetTheCloud) and [RanaKhas](https://github.com/ranakhas) for providing the scripts.
 
-[AADev](https://github.com/mahofficial) for writing the documentation, and [Anyx](https://github.com/4yx) for modifying it.
+[AA22Dev](https://github.com/mahofficial) for writing the documentation, and [Anyx](https://github.com/4yx) for modifying it.
