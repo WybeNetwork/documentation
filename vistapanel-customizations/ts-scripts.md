@@ -2,50 +2,76 @@
 
 This scripts works with our themes for vistapanel to allow users to switch between multiple themes using dropdown menu.
 
-### Method 1
+### Manual Installation
 
 !> `directory-name` is the name of directory where you uploaded script files. You can use as many themes as you want.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/light-lite/styles.css" title="lightlite" />
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/gradient-blue-lite/styles.css" title="gradientbluelite" />
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/dark-lite/styles.css" title="draklight" />
-<script type="text/javascript" src="https://yourdomain.tld/directory-name/switcher.js"></script>
-<button data-toggle="dropdown" class="btn dropdown-toggle user-preferences-btn">
-<span>Theme Options</span>
-</button>
-<ul class="dropdown-menu dropdown-menu-right">
-<li>
-<a href="#" onclick="setActiveStyleSheet('lightlite'); return false;">Light Lite</a>
-</li>
-<li>
-<a href="#" onclick="setActiveStyleSheet('gradientbluelite'); return false;">Gradient Blue Lite</a>
-</li>
-<li>
-<a href="#" onclick="setActiveStyleSheet('draklight'); return false;">Dark Light</a>
-</li>
-</ul>
+<script src="https://yourdomain.tld/theme-switcher.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // object must be created with this name
+    const wnThemeSwitcher = new ThemeSwitcher(
+        [
+            // Add theme folder name, name and type
+            {
+                dir: 'gradient-blue', // must be folder name of theme
+                title: 'Gradient Blue', // any name you want to show on user end
+                type: 'normal' // type of theme
+            },
+            {
+                dir: 'light-lite',
+                title: 'Light Theme',
+                type: 'lite'
+            },
+            {
+                dir: 'lightspace-blue',
+                title: 'Lightspace Blue',
+                type: 'special'
+            }
+        ],
+        { // set options for themes
+            baseURL: 'https://yourdomain.tld/', // optional, default is https://vpt.cdn.wybenetwork.com/ for loading themes
+            position: 'usernav', // optional, default is bottom (footer area)
+            default: { // optional, use to setup the default theme
+                dir: 'dark-discord', // must be folder name of theme
+                type: 'normal' // type of theme
+            }
+        }
+    )
+</script>
 ```
 
-### Method 2
+### Using our CDN
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/light-lite/styles.css" title="lightlite" />
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/gradient-blue-lite/styles.css" title="gradientbluelite" />
-<link rel="stylesheet" type="text/css" href="https://vpt.cdn.wybenetwork.com/dark-lite/styles.css" title="draklight" />
-<script type="text/javascript" src="https://vpc.cdn.wybenetwork.com/theme-switcher/switcher.js"></script>
-<button data-toggle="dropdown" class="btn dropdown-toggle user-preferences-btn">
-<span>Theme Options</span>
-</button>
-<ul class="dropdown-menu dropdown-menu-right">
-<li>
-<a href="#" onclick="setActiveStyleSheet('lightlite'); return false;">Light Lite</a>
-</li>
-<li>
-<a href="#" onclick="setActiveStyleSheet('gradientbluelite'); return false;">Gradient Blue Lite</a>
-</li>
-<li>
-<a href="#" onclick="setActiveStyleSheet('draklight'); return false;">Dark Light</a>
-</li>
-</ul>
+<script src="https://vpc.cdn.wybenetwork.com/theme-switcher/theme-switcher.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // object must be created with this name
+    const wnThemeSwitcher = new ThemeSwitcher(
+        [
+            // Add theme folder name, name and type
+            {
+                dir: 'gradient-blue', // must be folder name of theme
+                title: 'Gradient Blue', // any name you want to show on user end
+                type: 'normal' // type of theme
+            },
+            {
+                dir: 'light-lite',
+                title: 'Light Theme',
+                type: 'lite'
+            },
+            {
+                dir: 'lightspace-blue',
+                title: 'Lightspace Blue',
+                type: 'special'
+            }
+        ],
+        { // set options for themes
+            default: { // optional, use to setup the default theme
+                dir: 'dark-discord', // must be folder name of theme
+                type: 'normal' // type of theme
+            }
+        }
+    )
+</script>
 ```
