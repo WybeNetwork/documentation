@@ -1,8 +1,8 @@
-# Manual Installation
+# Using our CDN
 
 This method will guide you through the installation process of using our vistapanel scripts on your vPanel using our CDN. 
 
-!> You must read the [Requirements](https://docs.wybenetwork.com/vistapanel-customizations/#/requirement) before continuing with this method.
+!> You must read the [Requirements](https://docs.wybenetwork.com/vistapanel-customizations/#/requirements) before continuing with this method.
 
 We are using example of responsive domain search here. You can download all other scripts from GitHub. At the place of script-name there can be any [script name](https://docs.wybenetwork.com/vistapanel-customizations/#/scripts-name).
 
