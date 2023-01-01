@@ -1,16 +1,16 @@
 # Manual Installation
 
-This method will guide you through the manual installation process of our Customizations on your vPanel. 
+This method will guide you through the manual installation process of our Customizations on your vPanel.
 
 !> You must read the [Requirements for Manual Installation](https://docs.wybenetwork.com/vistapanel-customizations/#/requirements?id=requirements-for-manual-installation) before continuing with this method.
 
-We are using example of responsive domain search here. You can download all other scripts from GitHub. At the place of script-name there can be any [script name](https://docs.wybenetwork.com/vistapanel-customizations/#/scripts-name).
+We are using example of responsive domain search here. You can download all other scripts from GitHub. At the place of script-name there can be any [script](https://docs.wybenetwork.com/vistapanel-customizations/#/scripts).
 
-!> You are not allowed to remove the credits to author from any script. You can request for credits removal through our [Discord Server](https://discord.gg/zArW8kC).
+!> You are not allowed to remove the credits to authors from any script. You can request credits removal through our [Discord Server](https://discord.gg/zArW8kC).
 
 ## Download Scripts
 
-1. Go to [the releases page of VistaPanel Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations/releases). 
+1. Go to [the releases page of VistaPanel Customizations](https://github.com/WybeNetwork/VistaPanel-Customizations/releases).
 2. Download the latest available "Source Code (zip)" file.
 
 ![Download Script](assets/img/m1-01.png)
@@ -31,7 +31,7 @@ We are using example of responsive domain search here. You can download all othe
 2. Right click and convert them into zip archive using winrar.
 3. After making zip archive of it, login to the control panel of your account or Login via FileZilla using FTP credentials of your account.
 4. After that, you can upload and extract zip archive on your hosting or You can directly upload all the files present in "script-name" folder to your website using "FTP" or "File Manager of Control Panel". If you don’t upload all the files then it will cause problems.
-5. After uploading get url of `script-name.js`. 
+5. After uploading get url of `script-name.js`.
 
 URL will be like:
 ```http
