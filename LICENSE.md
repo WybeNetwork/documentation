@@ -1,6 +1,6 @@
 This is free documentation released for the public.
 
-Nobody except the author(s) is allowed to copy, modify, publish, use, compile, sell, or
+Nobody except the author(s) is allowed to copy, modify, publish, compile, sell, or
 distribute this documentation, either in source code form or as a compiled
 binary, for any purpose, commercial or non-commercial, and by any
 means. The author(s) are allowed to modify the license terms and replace or remove the license at their convenience.
